@@ -15,12 +15,14 @@
           <li class="{{Request::is('contact') ? 'active' : ''}}">
               <a class="nav-link" href="/contact">Contact</a>
           </li>
-          <li >
-              <a class="nav-link" href="{{ route('students.create') }}">Student</a>
+          <li>
+              <a class="nav-link" href="/resturant">Resturant</a>
           </li>
-          <li >
-              <a class="nav-link" href="{{ route('students.index') }}">All Student</a>
+
+          <li>
+              <a class="nav-link" href="/allresturant">All Resturant</a>
           </li>
+
         </ul>
       </div>
     </nav>

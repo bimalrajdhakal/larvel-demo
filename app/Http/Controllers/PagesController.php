@@ -25,4 +25,9 @@ class PagesController extends Controller
     public function getContact(){
         return view('contact');
     }
+
+    // get resturant 
+    public function getResturant(){
+        return view('resturant');
+    }
 }

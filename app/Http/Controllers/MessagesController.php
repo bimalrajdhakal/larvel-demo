@@ -10,6 +10,7 @@ class MessagesController extends Controller
 {
     // function to submit contact from 
 
+    
     public function submit(Request $request){
         // validating contact form
         $this->validate($request,[
